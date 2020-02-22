@@ -15,9 +15,9 @@ public static List<Airport> destList=new ArrayList<Airport>();
 static
 {
 
-Flight f1= new Flight(999,"AllType","INS",250);
-Flight f2= new Flight(555,"ECONOMY","INS", 150);
-Flight f3= new Flight(777,"FIRSTCLASS","INS",200);
+Flight f1= new Flight(9999,"AllType","INS",250);
+Flight f2= new Flight(5555,"ECONOMY","INS", 150);
+Flight f3= new Flight(7777,"FIRSTCLASS","INS",200);
 
 Airport s1= new Airport("Hyderabad Airport","HYD","Hyderabad");
 Airport s2= new Airport("Mumbai Airport","MUM","Mumbai");

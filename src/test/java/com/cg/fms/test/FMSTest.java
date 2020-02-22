@@ -19,7 +19,7 @@ import com.cg.fms.dao.ScheduledFlightDaoImpl;
 class FmsTest {
 
 	ScheduledFlightDao dao = null;
-	Flight f1 = new Flight(999, "AllType", "Airbus", 250);
+	Flight f1 = new Flight(9999, "AllType", "Airbus", 250);
 
 	Airport s1 = new Airport("Hyderabad Airport", "HYD", "Hyderabad");
 
@@ -58,7 +58,7 @@ class FmsTest {
 
 		dao.scheduleFlight(sf);
 		Flight a = dao.viewScheduledFlights(sf.getFlight().getFlightNumber());
-		assertEquals(999, a.getFlightNumber());
+		assertEquals(9999, a.getFlightNumber());
 
 	}
 }
